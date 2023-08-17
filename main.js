@@ -7,7 +7,7 @@ function checkButton() {
     if (month >= 3 && month <= 5) {
       resultElement.textContent = "Primavera🌷🍀";
     } else if (month >= 6 && month <= 8) {
-      resultElement.textContent = "Verao🌡️🌅";
+      resultElement.textContent = "Verão🌡️🌅";
     } else if (month >= 9 && month <= 11) {
       resultElement.textContent = "Outono🍂🍁";
     } else {
