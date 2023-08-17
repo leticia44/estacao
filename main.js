@@ -5,12 +5,12 @@ function checkButton() {
     var month = date.getMonth() + 1; // getMonth() returns 0-11
   
     if (month >= 3 && month <= 5) {
-      resultElement.textContent = "Primavera🌷";
+      resultElement.textContent = "Primavera🌷🍀";
     } else if (month >= 6 && month <= 8) {
-      resultElement.textContent = "Verao😎";
+      resultElement.textContent = "Verao🌡️🌅";
     } else if (month >= 9 && month <= 11) {
-      resultElement.textContent = "Outono🍂";
+      resultElement.textContent = "Outono🍂🍁";
     } else {
-      resultElement.textContent = "Inverno🥶";
+      resultElement.textContent = "Inverno🥶☃️";
     }
   }
